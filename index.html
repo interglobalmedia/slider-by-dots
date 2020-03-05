@@ -5,32 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slideshow By Dots</title>
+    <link rel="stylesheet" href="styles/css/main.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="image-slider-fade">
-            <img src="images/david-clode-RAfIk-ZKbPk-unsplash.jpg" alt="image of snake" />
+    <div id="buttons-wrapper">
+        <button id="left">◀︎</button>
+        <button id="right">▶︎</button>
+    </div>
+    <div class="wrapper">
+
+        <div class="slide fade">
+            <img src="images/david-clode-RAfIk-ZKbPk-unsplash.jpg" />
         </div>
-        <div class="image-slider-fade">
-            <img src="images/itengyart-Pm2wSt4WwgI-unsplash.jpg" alt="" />
+        <div class="slide fade">
+            <img src="images/itengyart-Pm2wSt4WwgI-unsplash.jpg" />
         </div>
-        <div class="image-slider-fade">
-            <img src="images/lesly-juarez-4JDPLjR1Ew4-unsplash.jpg" alt="" />
+        <div class="slide fade">
+            <img src="images/lesly-juarez-4JDPLjR1Ew4-unsplash.jpg" />
         </div>
-        <div class="image-slider-fade">
-            <img src="images/neil-cooper-uwI8R_FyLrI-unsplash.jpg" alt="" />
+        <div class="slide fade">
+            <img src="images/neil-cooper-uwI8R_FyLrI-unsplash.jpg" />
         </div>
-        <div class="image-slider-fade">
-            <img src="images/sophia-muller-loP8xxkZIk8-unsplash.jpg" alt="" />
+        <div class="slide fade">
+            <img src="images/sophia-muller-loP8xxkZIk8-unsplash.jpg" />
         </div>
+    </div>
+
+    <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
     </div>
     <!-- The dots/circles -->
-    <div style="text-align:center">
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-    </div>
+
+
     <script src="scripts/js/main.js"></script>
 </body>
 
